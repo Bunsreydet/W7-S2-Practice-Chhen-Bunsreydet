@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet", href="style.css">
+</head>
+<body>
+    <div class="margin-container">
+
+        <div class="main-container">
+            <div class="header-container">
+                <h1>Create Account</h1>
+            </div>
+            
+            <div class="body-container">
+                <form class="Form">
+                    <div class="container">
+                        <label for=" first name" id="label-container">First name*</label>
+                        <input type="text" placeholder="enter your first name"/>
+                    </div>
+                    <div class="container">
+                        <label for="last name" id="label-container">Last name</label>
+                        <input type="text" placeholder="enter your last name"/>
+                    </div>
+                    <div class="container email">
+                        <label for="email" id="label-container">Email*</label>
+                        <input type="email" placeholder="enter your email"/>
+                    </div>
+                    <div class="container password">
+                        <label for="password" id="label-container">Password*</label>
+                        <input type="password" placeholder="enter your password">
+                    </div>
+                    <div class="container password">
+                        <label for=" confirm password" id="label-container">Confirm Password*</label>
+                        <input type="password" placeholder="enter your password again">
+                    </div>
+                    <div class="container">
+                        <label for="gender" id="label-container">Gender</label>
+                        <div class="gender">
+                            <div class="male">
+                                <input type="radio" id="gender1" name="gender" value="gender1">
+                                <label for="gender1">Male</label>
+                            </div>
+                            
+                            <div class="female">
+                                <input type="radio" id="gender1" name="gender" value="gender1">
+                                <label for="gender1">Female</label>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="container">
+                        <label for="hobbies" id="label-container">Hobbies</label>
+                        <div class="hobbies">
+
+                            <div class="music">
+                                <input type="checkbox" name="hobbies" value="Music">
+                                <label for="Music">Music</label>
+                            </div>
+                            
+                            <div class="sport">
+                                <input type="checkbox" name="hobbies" value="Sports">
+                                <label for="Sports">Sports</label>
+                            </div>
+                            
+                            <div class="travel">
+                                <input type="checkbox" name="hobbies" value="Travel">
+                                <label for="Travel">Travel</label>
+                            </div>
+                            
+                            <div class="movie">
+                                <input type="checkbox" name="hobbies" value="Movies">
+                                <label for="Movies">Movies</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <label for="Source of Income" id="label-container">
+                            Source of Income
+                            <select name="Source of Income" id="select">
+                                <option value="employee">Employee</option>
+                                <option value="employee">Student</option>
+                                <option value="employee">Farmer</option>
+                                <option value="employee">Teacher</option>
+                            </select>
+                        </label>
+                    </div>
+                    
+                    <div class="container">
+                        <label for="Income" id="label-container">Income</label>
+                        <input type="range" name="Income" value="Income">
+                    </div>
+                    
+                    <div class="container">
+                        <label for="Upload Profile Picture" id="label-container">Upload Profile Picture</label>
+                        <input type="file">
+                    </div>
+                    
+                    <div class="container">
+                        <label for="Age" id="label-container">Age</label>
+                        <input type="number">
+                    </div>
+                    
+                    <div class="container bio">
+                        <label for="Bio" id="label-container">Bio</label>
+                        <textarea name="bio" id="bio-input"></textarea>
+                    </div>
+                </form>
+            </div>
+            
+            <div class="footer-container">
+                <input type="submit" id="create" value="Create">
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>

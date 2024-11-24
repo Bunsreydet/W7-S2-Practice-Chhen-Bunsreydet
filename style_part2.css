@@ -1,0 +1,101 @@
+body
+{
+    display: flex;
+    justify-content: center;
+}
+
+
+.main-container
+{
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    width: 40vw;
+    margin: 1em;
+}
+
+.margin-container
+{
+    background-color: royalblue;
+}
+
+.header-container
+{
+    background-color: lightgrey;
+    height: 10vh;
+    border-radius: 10px 10px 0 0;
+}
+
+h1
+{
+    display: flex;
+    justify-content: center;
+}
+
+.body-container
+{
+    width: 100%;
+}
+
+.hobbies
+{
+    display: flex;
+}
+.gender
+{
+    display: flex;
+}
+
+.footer-container
+{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    background-color: lightgray;
+    height: 10vh;
+    border-radius: 0 0 10px 10px;
+    padding-right: 1em;
+}
+
+.email
+{
+    grid-column: span 2;
+}
+
+.bio
+{
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+#bio-input
+{
+    height: 100%;
+}
+
+.Form
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    border: 2px solid black;
+    background-color: white;
+    padding: 1em;
+    gap: 1em;
+}
+
+.container
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#create
+{
+    background-color: green;
+}
+
+#label-container
+{
+    color: green;
+}

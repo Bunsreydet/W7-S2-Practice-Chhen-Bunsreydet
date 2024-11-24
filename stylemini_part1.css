@@ -1,0 +1,55 @@
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form
+{
+    width: 400px;
+    height: 300px;
+    border-style: solid;
+    border-radius: 5vh;
+    border-color: plum;
+    background-color: #43C6DB;
+}
+
+h1
+{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.container
+{
+    display: flex;
+    justify-content: center;
+}
+
+form.container
+{
+    display: table;
+}
+
+div.container
+{
+    display: table-row;
+}
+
+label,
+input{
+    border-radius: 10px;
+    display: table-cell;
+    margin-bottom: 10px;
+    font-size: 30px;
+    margin-left: 5px;
+    width: 25vh;
+}
+
+input:hover
+{
+    background-color: plum;
+    color: black;
+}
